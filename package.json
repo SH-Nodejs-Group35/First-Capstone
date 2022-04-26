@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "start:dev": "nodemon server.js"
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/MelahGhislain/First-Capstone/issues"
   },
-  "homepage": "https://github.com/MelahGhislain/First-Capstone#readme"
+  "homepage": "https://github.com/MelahGhislain/First-Capstone#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }

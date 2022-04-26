@@ -1,0 +1,47 @@
+{
+  "hostname": "grace-HP-Laptop-15-bw0xx",
+  "platform": "linux",
+  "architecture": "x64",
+  "numberOfCPUS": 2,
+  "networkInterfaces": {
+    "lo": [
+      {
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4",
+        "mac": "00:00:00:00:00:00",
+        "internal": true,
+        "cidr": "127.0.0.1/8"
+      },
+      {
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "mac": "00:00:00:00:00:00",
+        "internal": true,
+        "cidr": "::1/128",
+        "scopeid": 0
+      }
+    ],
+    "wlp3s0": [
+      {
+        "address": "172.20.10.2",
+        "netmask": "255.255.255.240",
+        "family": "IPv4",
+        "mac": "dc:f5:05:fc:b4:d1",
+        "internal": false,
+        "cidr": "172.20.10.2/28"
+      },
+      {
+        "address": "fe80::9655:bfbb:81b:d29f",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "mac": "dc:f5:05:fc:b4:d1",
+        "internal": false,
+        "cidr": "fe80::9655:bfbb:81b:d29f/64",
+        "scopeid": 3
+      }
+    ]
+  },
+  "uptime": 3908.64
+}
